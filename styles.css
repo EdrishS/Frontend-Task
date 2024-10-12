@@ -1,0 +1,192 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bogo-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.title-with-lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1;
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    margin: 0 10px;
+}
+
+.bogo-title {
+    font-size: 24px;
+    color: #ff4081;
+    white-space: nowrap;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+.unit-option {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.unit-option label {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.most-popular {
+    border-color: #ff4081;
+}
+
+.most-popular .popular-badge {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #ff4081;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.unit-text {
+    font-weight: bold;
+    color: #333;
+}
+
+.discount-label {
+    background-color: #ff4081;
+    color: white;
+    padding: 2px 6px;
+    margin-left: -27px;
+    font-size: 12px;
+    margin-top: -18px;
+}
+
+.unit-label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.price-value{
+    font-size: 12px;
+}
+
+.price {
+    margin-left: auto;
+    font-weight: bold;
+    color: #333;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #aaa;
+    margin-left: 5px;
+}
+
+.price-label {
+    display: flex;
+    margin-left: 87px;
+    flex-direction: column;
+}
+
+.size-color-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.selection label {
+    margin-right: 5px;
+    font-size: small;
+}
+
+select {
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+
+.delivery-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.free-delivery {
+    font-size: 14px;
+    color: #ff4081;
+    text-align: left;
+    margin: 0; 
+}
+
+.total-price {
+    font-size: 16px;
+    text-align: right;
+    margin: 0; 
+}
+
+.add-to-cart {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #ff6091;
+}
+
+input[type="radio"] {
+    margin-right: 10px; /* Space between radio and text */
+}
